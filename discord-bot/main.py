@@ -1,9 +1,7 @@
 import discord
-import os
-import requests
-import json
 from discord.ext import commands
 from extractor import return_dislike
+from keep_alive import keep_alive
 
 client = commands.Bot(command_prefix="d ")
 client.remove_command('help')
@@ -45,4 +43,6 @@ async def help(ctx):
     embedVar.set_thumbnail(
         url='https://cdn.discordapp.com/avatars/908394105862770739/b62972d68b9fc71da3b5b21be07f289c.webp?size=1024')
     await ctx.send(embed=embedVar)
+
+keep_alive()
 client.run('token goes here')
