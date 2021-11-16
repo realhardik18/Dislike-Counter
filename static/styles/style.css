@@ -1,0 +1,25 @@
+.title {
+  color: red;
+  font-family: monospace;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.about {
+  color: blueviolet;
+  font-family: monospace;
+  font-size: x-large;
+  text-align: center;
+}
+
+.input-text {
+  color: red;
+  font-family: monospace;
+  font-size: xx-large;
+}
+.credits {
+  color: blueviolet;
+  font-family: monospace;
+  font-size: xx-large;
+  text-align: center;
+}
