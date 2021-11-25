@@ -6,6 +6,5 @@ def return_dislike(url):
     video = pafy.new(url)
     dislikes = video.dislikes
     title = video.title
-    thumbnail = video.thumb
-    stats = [dislikes, title, thumbnail]
+    stats = [dislikes, title]
     return stats

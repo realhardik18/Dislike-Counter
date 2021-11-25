@@ -23,3 +23,10 @@
   font-size: xx-large;
   text-align: center;
 }
+
+.number {
+  color: blueviolet;
+  font-family: monospace;
+  font-size: 150px;
+  text-align: center;
+}
